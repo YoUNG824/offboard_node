@@ -47,6 +47,3 @@ make px4_sitl gazebo_iris
 source ~/src/catkin_ws/devel/setup.bash
 rosrun offboard_pkg offboard_node
 ```
-# It's a Python version
-
-
