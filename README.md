@@ -26,9 +26,9 @@ cd ..
 catkin build
 ```
 ```
-cd ~/src
+cd ~/src/catkin_ws/src
 git clone https://github.com/YoUNG824/offboard_node.git
-cd offboard_node
+cd ..
 catkin build
 ```
 ## Run
@@ -44,7 +44,7 @@ make px4_sitl gazebo_iris
 ```
 ### switch pixhawk to offboard mode
 ```
-source ~/src/offboard_node/devel/setup.bash
+source ~/src/catkin_ws/devel/setup.bash
 rosrun offboard_pkg offboard_node
 ```
 
