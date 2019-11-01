@@ -1,8 +1,9 @@
-# Introduction
+# It's a C++ version
+## Introduction
 Create an offboard node in ros to switch px4 to offboard mode
-# C++ version
 
-# Properation
+
+## Properation
 ```
 cd $HOME
 mkdir src
@@ -26,6 +27,7 @@ catkin build
 ```
 ```
 cd ~/src
-git clone 
+git clone https://github.com/YoUNG824/offboard_node.git
+cd offboard_node
 catkin build
 ```
