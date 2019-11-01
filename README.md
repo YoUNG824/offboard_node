@@ -31,3 +31,22 @@ git clone https://github.com/YoUNG824/offboard_node.git
 cd offboard_node
 catkin build
 ```
+## Run
+### run pixhawk connection(MAVROS)
+```
+source ~/src/catkin_ws/devel/setup.bash
+roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
+```
+### run pixhawk&gazebo
+```
+cd ~/src/Firmware
+make px4_sitl gazebo_iris
+```
+### switch pixhawk to offboard mode
+```
+source ~/src/offboard_node/devel/setup.bash
+rosrun offboard_pkg offboard_node
+```
+
+
+
