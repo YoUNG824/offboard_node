@@ -45,7 +45,7 @@ make px4_sitl gazebo_iris
 ### switch pixhawk to offboard mode
 ```
 source ~/src/catkin_ws/devel/setup.bash
-rosrun offboard_pkg offboard_node
+rosrun c++_offboard_pkg offboard_node
 ```
 
 
