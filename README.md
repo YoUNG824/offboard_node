@@ -27,7 +27,7 @@ catkin build
 ```
 ```C++
 cd ~/src/catkin_ws/src
-git clone https://github.com/YoUNG824/offboard_node.git
+git clone  https://github.com/YoUNG824/offboard_node.git
 cd ..
 catkin build
 ```
